@@ -1,0 +1,104 @@
+{
+  "footer": [
+    {
+      "desc": "2000+ Our clients are subscribe Around the World",
+      "title": "Newsletter",
+      "services": [
+        {
+          "title": "Industries",
+          "top": true,
+          "innerItem": [
+            {
+              "text": "Global Logistics",
+              "link": "#"
+            },
+            {
+              "text": "Infrastructure",
+              "link": "#"
+            },
+            {
+              "text": "Legal",
+              "link": "#"
+            },
+            {
+              "text": "Manufacturing",
+              "link": "#"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Products",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Industrial Solver Platform",
+              "link": "#"
+            },
+            {
+              "text": "Inter-Link AI",
+              "link": "#"
+            },
+            {
+              "text": "Inter-Link ASR",
+              "link": "#"
+            },
+            {
+              "text": "Inter-Link Documents",
+              "link": "/blog-list"
+            }
+          ]
+        }
+      ],
+      "company": [
+        {
+          "title": "Company",
+          "top": true,
+          "innerItem": [
+            {
+              "text": "Careers",
+              "link": "#"
+            },
+            {
+              "text": "Contact",
+              "link": "#"
+            },
+            {
+              "text": "Corporate",
+              "link": "#"
+            },
+            {
+              "text": "Press Release",
+              "link": "#"
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Solutions",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Gallery",
+              "link": "#"
+            },
+            {
+              "text": "Testimonial",
+              "link": "#"
+            },
+            {
+              "text": "Contact",
+              "link": "/blog-list"
+            },
+            {
+              "text": "Service",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
