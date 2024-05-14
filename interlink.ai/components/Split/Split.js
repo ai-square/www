@@ -253,8 +253,8 @@ const Split = () => {
                       data-sal-duration="400"
                       data-sal-delay="400"
                     >
-                      <Link className="btn-default" href="/contact">
-                        Contact With Us
+                      <Link className="btn-default" href="https://ai-square.io/contact/">
+                        Contact Us
                       </Link>
                     </div>
                   </div>

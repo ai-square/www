@@ -39,100 +39,12 @@
   ],
   "toolsItem": [
     {
-      "link": "#",
-      "isDisable": false,
-      "title": "Inter-Link ASR",
-      "img": "/images/generator-icon/voice_line.png",
-      "badge": "",
-      "wdt": 27
-    },
-    {
       "link": "#product-reveal",
       "isDisable": false,
       "title": "Inter-Link AI",
-      "img": "/images/generator-icon/video-camera_line.png",
-      "badge": "Hot",
+      "img": "/images/generator-icon/inter-link-mini.png",
+      "badge": "Early Access",
       "wdt": 27
-    },
-    {
-      "link": "#",
-      "isDisable": false,
-      "title": "Inter-Link Documents",
-      "img": "/images/generator-icon/code-editor_line.png",
-      "badge": "",
-      "wdt": 44
-    },
-    {
-      "link": "#",
-      "isDisable": true,
-      "title": "Lyrics Generator",
-      "img": "/images/generator-icon/lyrics_line.png",
-      "badge": "Coming",
-      "wdt": 27
-    },
-    {
-      "link": "/image-editor",
-      "isDisable": false,
-      "title": "Photo Editor",
-      "img": "/images/generator-icon/photo-editor_line.png",
-      "badge": "Hot",
-      "wdt": 36
-    },
-    {
-      "link": "/image-generator",
-      "isDisable": false,
-      "title": "Image Generator",
-      "img": "/images/generator-icon/photo_line.png",
-      "badge": "",
-      "wdt": 36
-    },
-    {
-      "link": "/text-generator",
-      "isDisable": false,
-      "title": "Speech to text",
-      "img": "/images/generator-icon/voice_line.png",
-      "badge": "",
-      "wdt": 27
-    },
-    {
-      "link": "#",
-      "isDisable": true,
-      "title": "Website Generator",
-      "img": "/images/generator-icon/website-design_line.png",
-      "badge": "Coming",
-      "wdt": 36
-    },
-    {
-      "link": "/code-generator",
-      "isDisable": false,
-      "title": "Code Generator",
-      "img": "/images/generator-icon/code-editor_line.png",
-      "badge": "Hot",
-      "wdt": 44
-    },
-    {
-      "link": "/email-generator",
-      "isDisable": false,
-      "title": "Email Writer",
-      "img": "/images/generator-icon/email_line.png",
-      "badge": "",
-      "wdt": 44
-    },
-    {
-      "link": "/text-generator",
-      "isDisable": false,
-      "title": "Text to speech",
-      "img": "/images/generator-icon/text-voice_line.png",
-      "badge": "",
-      "wdt": 36
-    },
-    {
-      "link": "#",
-      "isDisable": true,
-      "title": "Chat with Documents",
-      "img": "/images/generator-icon/document_line.png",
-      "badge": "Coming",
-      "wdt": 31
     }
   ],
   "smallNavItem": [

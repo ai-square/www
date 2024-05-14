@@ -33,9 +33,8 @@ const PricingTwo = ({
     <>
       <div className="main-content">
         <div
-          className={`rainbow-pricing-area ${
-            gap ? "rainbow-section-gap rainbow-section-gapTop-big" : ""
-          }`}
+          className={`rainbow-pricing-area ${gap ? "rainbow-section-gap rainbow-section-gapTop-big" : ""
+            }`}
         >
           <div className="container">
             <div className="wrapper">
@@ -52,10 +51,10 @@ const PricingTwo = ({
                         <span className="theme-gradient">Pricing</span>
                       </h4>
                       <h2 className="title w-600 mb--20">
-                        Commence Content Journey with AI
+                        Simple Pricing for all Business Sizes.
                       </h2>
                       <p className="description b1">
-                        Collaborate with AI to generate content that resonates.
+                        Straightforward Pricing Plans designed to suit your Business
                       </p>
                     </div>
                   ) : (
@@ -80,7 +79,7 @@ const PricingTwo = ({
                       >
                         Monthly
                       </button>
-                      <button
+                      {/* <button
                         className="nav-link with-badge"
                         id="nav-profile-tab"
                         data-bs-toggle="tab"
@@ -94,7 +93,7 @@ const PricingTwo = ({
                         <span className="rainbow-badge-card badge-border">
                           20% Off
                         </span>
-                      </button>
+                      </button> */}
                     </div>
                   </nav>
                 </div>

@@ -76,10 +76,10 @@ const SinglePrice = ({ data, incresePrice, parentClass }) => {
             <div className="pricing-footer">
               {data.price === 0 ? (
                 <Link className="btn-default btn-border" href="#">
-                  Try it now
+                  Coming Soon
                 </Link>
               ) : data.title === "Enterprise" ? (
-                <Link className={`btn-default btn-border`} href="#">
+                <Link className={`btn-default btn-border`} href="https://ai-square.io/contact/">
                   Contact Sales
                 </Link>
               ) : (
@@ -89,9 +89,9 @@ const SinglePrice = ({ data, incresePrice, parentClass }) => {
                       ? "btn-default btn-border"
                       : "btn-default"
                   }`}
-                  href="#"
+                  href="https://ai-square.io/contact/"
                 >
-                  Purchase Now
+                  Contact Sales
                 </Link>
               )}
             </div>

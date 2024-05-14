@@ -79,10 +79,10 @@ const Timeline = () => {
                 </div>
               </div>
               <div className="button-group mt--50 text-center">
-                <Link className="btn-default btn-large" href="/text-generator">
+                <Link className="btn-default btn-large" href="https://ai-square.io/contact/">
                   Request a Demo
                 </Link>
-                <Link
+                {/* <Link
                   className="btn-default btn-large btn-border popup-video"
                   href="https://youtu.be/ThRYF96HIzA?si=Yz-Yc5HSf8uLPv-G"
                   data-vbtype="video"
@@ -91,7 +91,7 @@ const Timeline = () => {
                     <i className="feather-play"></i>
                   </span>{" "}
                   See it in Action
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

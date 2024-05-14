@@ -12,6 +12,25 @@ const ProductReveal = () => {
         position: 'absolute',
         zIndex: -1,
         transform: 'scale(0)', // CSS transforms can be used for scaling
+        borderRadius: '30px',
+    };
+
+    const widgetsStyle2 = {
+        position: 'absolute',
+        zIndex: 1,
+        transform: 'scale(0)', // CSS transforms can be used for scaling
+        borderRadius: '30px',
+        width: '20%',
+        maxWidth: '400px',
+    };
+
+    const widgetsStyle3 = {
+        position: 'absolute',
+        zIndex: 1,
+        transform: 'scale(0)', // CSS transforms can be used for scaling
+        borderRadius: '30px',
+        width: '15%',
+        maxWidth: '300px',
     };
 
     const sectionStyle = {
@@ -46,20 +65,20 @@ const ProductReveal = () => {
                 
                 // Animations array setup
                 const animations = [
-                    {
-                        selector: '#app-store',
-                        duration: 3,
-                        scale: 0.9,
-                        x: 500,
-                        y: 100,
-                        ease: 'power4.out'
-                    },
+                    // {
+                    //     selector: '#app-store',
+                    //     duration: 3,
+                    //     scale: 0.9,
+                    //     x: 500,
+                    //     y: 100,
+                    //     ease: 'power4.out'
+                    // },
                     {
                         selector: "#screen-time",
                         duration: 3,
-                        scale: 0.9,
-                        x: -500,
-                        y: -300,
+                        scale: 1.2,
+                        x: -600,
+                        y: -200,
                         ease: 'power2.out'
                     },
                     {
@@ -74,67 +93,67 @@ const ProductReveal = () => {
                         selector: "#stocks",
                         duration: 3,
                         scale: 0.9,
-                        x: 530,
+                        x: 750,
                         y: -170,
                         ease: 'power4.out'
                     },
-                    {
-                        selector: "#fitness",
-                        duration: 3,
-                        scale: 1.1,
-                        x: -350,
-                        y: -100,
-                        ease: 'power2.out'
-                    },
-                    {
-                        selector: "#find-my",
-                        duration: 3,
-                        scale: 1.1,
-                        x: 400,
-                        y: -360,
-                        ease: 'power4.out'
-                    },
+                    // {
+                    //     selector: "#fitness",
+                    //     duration: 3,
+                    //     scale: 1.1,
+                    //     x: -350,
+                    //     y: -100,
+                    //     ease: 'power2.out'
+                    // },
+                    // {
+                    //     selector: "#find-my",
+                    //     duration: 3,
+                    //     scale: 1.1,
+                    //     x: 400,
+                    //     y: -360,
+                    //     ease: 'power4.out'
+                    // },
                     {
                         selector: "#calendar",
                         duration: 3,
                         scale: 0.9,
-                        x: -630,
-                        y: 0,
+                        x: -730,
+                        y: 200,
                         ease: 'power2.out'
                     },
 
-                    {
-                        selector: "#wallet",
-                        duration: 3,
-                        scale: 1,
-                        x: -280,
-                        y: 100,
-                        ease: 'power4.out'
-                    },
+                    // {
+                    //     selector: "#wallet",
+                    //     duration: 3,
+                    //     scale: 1,
+                    //     x: -280,
+                    //     y: 100,
+                    //     ease: 'power4.out'
+                    // },
                     {
                         selector: "#apple-tv",
                         duration: 3,
                         scale: 1,
-                        x: 500,
+                        x: 600,
                         y: 300,
                         ease: 'power4.out'
                     },
-                    {
-                        selector: "#sleep",
-                        duration: 3,
-                        scale: 0.9,
-                        x: 270,
-                        y: -50,
-                        ease: 'power2.out'
-                    },
-                    {
-                        selector: "#socials",
-                        duration: 3,
-                        scale: 1,
-                        x: 330,
-                        y: 120,
-                        ease: 'power2.out'
-                    }
+                    // {
+                    //     selector: "#sleep",
+                    //     duration: 3,
+                    //     scale: 0.9,
+                    //     x: 270,
+                    //     y: -50,
+                    //     ease: 'power2.out'
+                    // },
+                    // {
+                    //     selector: "#socials",
+                    //     duration: 3,
+                    //     scale: 1,
+                    //     x: 330,
+                    //     y: 120,
+                    //     ease: 'power2.out'
+                    // }
                 ];
 
                 // Iterate over the animations array to create a ScrollTrigger for each widget
@@ -253,16 +272,16 @@ const ProductReveal = () => {
                 src="https://cdpn.io/cpe/boomboom/index.html?key=index.html-16b46083-edbf-5aa4-93b3-4e83b14da794">
             </iframe> */}
             {/* <img className="iphone" style={iphoneStyle} src="https://sqware.ai/Interlink-Solver.png" alt="" /> */}
-            <img id='app-store' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/appstore-widget.svg" alt="" />
-            <img id='screen-time' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/screen-time-widget.svg" alt="" />
-            <img id='weather' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/weather-widget.svg" alt="" />
-            <img id='stocks' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/stocks-widget.svg" alt="" />
-            <img id='calendar' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/calendar-widget.svg" alt="" />
-            <img id='fitness' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/fitness-widget.svg" alt="" />
-            <img id='find-my' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/find-my-widget.svg" alt="" />
-            <img id='sleep' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/sleep-widget.svg" alt="" />
-            <img id='apple-tv' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/apple-tv.svg" alt="" />
-            <img id='wallet' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/wallet.svg" alt="" />
+            {/* <img id='app-store' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/appstore-widget.svg" alt="" /> */}
+            <img id='screen-time' className='widgets' style={widgetsStyle2} src="/assets/interlink-ai-product-demo/OCR.gif" alt="Smart Key Value Pair OCR Extraction with Inter-Link AI" />
+            <img id='weather' className='widgets' style={widgetsStyle3} src="/assets/interlink-ai-product-demo/ASR.gif" alt="Compare Audio file with documents with Inter-Link AI" />
+            <img id='stocks' className='widgets' style={widgetsStyle} src="assets/interlink-ai-product-demo/PDF.png" alt="Compare 2 PDF files with Inter-Link AI" />
+            <img id='calendar' className='widgets' style={widgetsStyle3} src="/assets/interlink-ai-product-demo/fax-data.gif" alt="Compare Faxed documents and PDF with Inter-Link AI" />
+            {/* <img id='fitness' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/fitness-widget.svg" alt="" /> */}
+            {/* <img id='find-my' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/find-my-widget.svg" alt="" /> */}
+            {/* <img id='sleep' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/sleep-widget.svg" alt="" /> */}
+            <img id='apple-tv' className='widgets' style={widgetsStyle3} src="/assets/interlink-ai-product-demo/paper-to-digital.gif" alt="Extract information from paper documents with Inter-Link-AI" />
+            {/* <img id='wallet' className='widgets' style={widgetsStyle} src="https://assets.codepen.io/8292695/wallet.svg" alt="" /> */}
         </div>
     );
 };

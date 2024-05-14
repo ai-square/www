@@ -1,7 +1,7 @@
 {
   "footer": [
     {
-      "desc": "2000+ Our clients are subscribe Around the World",
+      "desc": "Get the latest updates and exclusive insights for Inter-Link AI!",
       "title": "Newsletter",
       "services": [
         {
@@ -29,24 +29,12 @@
       ],
       "products": [
         {
-          "title": "Products",
+          "title": "Product",
           "top": false,
           "innerItem": [
             {
-              "text": "Industrial Solver Platform",
-              "link": "#"
-            },
-            {
               "text": "Inter-Link AI",
               "link": "#"
-            },
-            {
-              "text": "Inter-Link ASR",
-              "link": "#"
-            },
-            {
-              "text": "Inter-Link Documents",
-              "link": "/blog-list"
             }
           ]
         }
@@ -57,44 +45,20 @@
           "top": true,
           "innerItem": [
             {
+              "text": "Blog",
+              "link": "https://ai-square.io/posts/"
+            },
+            {
               "text": "Careers",
-              "link": "#"
+              "link": "https://ai-square.io/careers/"
             },
             {
               "text": "Contact",
-              "link": "#"
+              "link": "https://ai-square.io/contact/"
             },
             {
-              "text": "Corporate",
-              "link": "#"
-            },
-            {
-              "text": "Press Release",
-              "link": "#"
-            }
-          ]
-        }
-      ],
-      "solutions": [
-        {
-          "title": "Solutions",
-          "top": false,
-          "innerItem": [
-            {
-              "text": "Gallery",
-              "link": "#"
-            },
-            {
-              "text": "Testimonial",
-              "link": "#"
-            },
-            {
-              "text": "Contact",
-              "link": "/blog-list"
-            },
-            {
-              "text": "Service",
-              "link": "#"
+              "text": "Team",
+              "link": "https://ai-square.io/about-us/"
             }
           ]
         }

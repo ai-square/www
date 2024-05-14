@@ -485,9 +485,10 @@ body.light-mode:before {
 }
 
 .content-wrapper-img {
-  width: 186px;
+  width: 246px;
   object-fit: cover;
-  margin-top: -25px;
+  /* margin-top: -25px; */
+  border-radius: 30px;
   object-position: center;
 }
 @media screen and (max-width: 570px) {

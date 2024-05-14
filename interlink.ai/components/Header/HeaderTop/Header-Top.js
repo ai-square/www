@@ -14,15 +14,15 @@ const HeaderTop = () => {
               <div className="col-lg-12">
                 <div className="inner">
                   <div className="content">
-                    <span className="rainbow-badge">Limited Time Offer</span>
+                    <span className="rainbow-badge">Exclusive Early Access Offer</span>
                     <span className="news-text">
-                      Intro price. Get Interlink AI for Big Sale -95% off.
+                      Secure your spot & harness the capabilities of Interlink AI today! Enjoy an early access discount of 30% off for a limited time.
                     </span>
                   </div>
                   <div className="right-button">
-                    <Link className="btn-read-more" href="#">
+                    <Link className="btn-read-more" href="https://ai-square.io/contact/">
                       <span>
-                        Purchase Now <i className="feather-arrow-right"></i>
+                        Contact Sales <i className="feather-arrow-right"></i>
                       </span>
                     </Link>
                   </div>

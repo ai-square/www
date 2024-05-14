@@ -60,27 +60,27 @@
       "isActive": false,
       "subItem": [
         {
-          "text": "7,700 Words",
+          "text": "Cloud Deployment",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
-          "isMinus": false
-        },
-        {
-          "text": "5+ Languages",
-          "isMinus": false
-        },
-        {
-          "text": "AI Blog generate",
+          "text": "On Premise AI",
           "isMinus": true
         },
         {
-          "text": "Advance Editor Tool",
+          "text": "PDF Support",
+          "isMinus": false
+        },
+        {
+          "text": "Image Support",
           "isMinus": true
         },
         {
-          "text": "Consistent support",
+          "text": "Audio Support",
+          "isMinus": true
+        },
+        {
+          "text": "Customer Service",
           "isMinus": true
         }
       ]
@@ -93,27 +93,27 @@
       "isActive": true,
       "subItem": [
         {
-          "text": "80,000 Words",
+          "text": "Cloud Deployment",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
+          "text": "On Premise AI",
+          "isMinus": true
+        },
+        {
+          "text": "PDF Support",
           "isMinus": false
         },
         {
-          "text": "5+ Languages",
+          "text": "Image Support",
           "isMinus": false
         },
         {
-          "text": "AI Blog generate",
+          "text": "Audio Support",
           "isMinus": false
         },
         {
-          "text": "Advance Editor Tool",
-          "isMinus": false
-        },
-        {
-          "text": "Consistent support",
+          "text": "Customer Service",
           "isMinus": false
         }
       ]
@@ -126,60 +126,44 @@
       "isActive": true,
       "subItem": [
         {
-          "text": "100,000 Words",
+          "text": "Cloud Deployment",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
+          "text": "On Premise AI",
           "isMinus": false
         },
         {
-          "text": "5+ Languages",
+          "text": "PDF Support",
           "isMinus": false
         },
         {
-          "text": "AI Blog generate",
+          "text": "Image Support",
           "isMinus": false
         },
         {
-          "text": "Advance Editor Tool",
+          "text": "Audio Support",
           "isMinus": false
         },
         {
-          "text": "Consistent support",
+          "text": "Customer Service",
           "isMinus": false
         }
       ]
     },
     {
-      "title": "Enterprise",
+      "title": "Developers",
       "price": 40,
       "text": "Let's Talk",
-      "subTitle": "Forever",
+      "subTitle": "Integration Tools",
       "isActive": false,
       "subItem": [
         {
-          "text": "3,580,000 Words",
+          "text": "API Access",
           "isMinus": false
         },
         {
-          "text": "16+ Templates",
-          "isMinus": false
-        },
-        {
-          "text": "8+ Languages",
-          "isMinus": false
-        },
-        {
-          "text": "AI Blog generate",
-          "isMinus": false
-        },
-        {
-          "text": "Advance Editor Tool",
-          "isMinus": false
-        },
-        {
-          "text": "Consistent support",
+          "text": "SDK Access",
           "isMinus": false
         }
       ]
@@ -187,33 +171,48 @@
   ],
   "accordion": [
     {
-      "title": "What is Inter-Link AI ? How does it work?",
-      "desc": "Inter-Link AI is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
+      "title": "What is Inter-Link AI ?",
+      "desc": "Inter-Link AI is a powerful tool designed to simplify the complex and often overwhelming task of data verification across logistics, legal, and infrastructure industries. By automating document sorting and error-checking, it reduces the manual load, allowing you to focus on more strategic tasks and meet critical deadlines.",
       "isExpand": true
     },
     {
-      "title": "What kind of questions can I ask Inter-Link AI?",
-      "desc": "Inter-Link AI, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
+      "title": "How does Inter-Link AI work?",
+      "desc": "With Inter-Link AI, document verification becomes a swift, three-step process. First choose the types of documents you need to verify, such as PDFs, audio files, faxes, or images. Then highlight essential data that needs attention before creating specific rules tailored to your industry needs for accurate data comparison. This method significantly cuts down the time spent on manual checks and helps maintain the accuracy and reliability of your operations.",
       "isExpand": false
     },
     {
-      "title": "Can I get update regularly and For how long do I get updates?",
-      "desc": "Yes, We will get update the Inter-Link AI. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "title": "How does Inter-Link AI protect sensitive data within my industry?",
+      "desc": "We understand the critical importance of data security, especially in fields handling sensitive information. Inter-Link AI employs military-grade encryption to ensure that your documents and data remain secure and private, accessible only to authorized personnel, whether it is deployed on-premise or in the cloud.",
       "isExpand": false
     },
     {
-      "title": "How can I get the customer support?",
-      "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.",
+      "title": "Can Inter-Link AI fit into my existing workflow without causing disruptions?",
+      "desc": "Inter-Link AI is designed to integrate smoothly into your current systems, aligning neatly with your workflow without the need for extensive training or major changes. This integration helps you maintain continuity and efficiency, enhancing your team's productivity without the usual integration headaches.",
       "isExpand": false
     },
     {
-      "title": "HIs my data safe with Inter-Link AI?",
-      "desc": "Feel free to toss any questions at Inter-Link, just like you would with a human helper—whether it's about the weather, the latest news, restaurant suggestions, or anything else you fancy!",
+      "title": "How does Inter-Link AI facilitate better teamwork, especially in dispersed teams?",
+      "desc": "Inter-Link AI supports your team's collaboration by enabling members to work together effectively, whether they are in the office or spread across multiple locations. The platform is accessible via on-premise installations, cloud, or VPN, ensuring that every team member can access necessary tools and information seamlessly, fostering better communication and teamwork.",
       "isExpand": false
     },
     {
       "title": "Is Inter-Link AI available in multiple languages?",
-      "desc": "Yes, Inter-Link AI is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "desc": "Yes, Inter-Link AI is designed to support multiple languages. Verifying information in documents that are in different languages works seamslessly. Inter-Link AI allows you to verify that the information contained in the selected documents is the same even if the documents are written in different languages.",
+      "isExpand": false
+    },
+    {
+      "title": "Can I deploy Inter-Link AI on premise?",
+      "desc": "Yes, Inter-Link AI can be deployed on premise.",
+      "isExpand": false
+    },
+    {
+      "title": "Can I deploy Inter-Link AI on my preferred Cloud Service Provider?",
+      "desc": "Yes, Inter-Link AI can be deployed on your preffered Cloud Platform.",
+      "isExpand": false
+    },
+    {
+      "title": "Can Inter-Link AI improve the verification results over time?",
+      "desc": "Yes, when users validate or correct the verification results, Inter-Link AI learns from the user inputs to improve future verification results.",
       "isExpand": false
     }
   ]

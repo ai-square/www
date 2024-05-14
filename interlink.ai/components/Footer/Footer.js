@@ -37,7 +37,7 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="b1 text-center mt--20 mb--0">
-                  Streamline data verification & integration with Inter-Link AI.
+                  Streamline data verification with Inter-Link AI.
                   </p>
                 </div>
               </div>
@@ -51,27 +51,35 @@ const Footer = () => {
                       <h4 className="title">{data.title}</h4>
                       <div className="inner">
                         <h6 className="subtitle">{data.desc}</h6>
-                        <form className="newsletter-form" action="#">
+                        <form className="newsletter-form" action="https://formspree.io/f/xpzvnjrl" method="POST">
                           <div className="form-group">
                             <input
                               type="email"
+                              name="email"
                               placeholder="Enter Your Email Here"
+                              required
+                            />
+                            <textarea
+                              name="message"
+                              placeholder="Your message"
+                              hidden
+                              defaultValue="Interested in early access!"
                             />
                             <button
                               className="btn-default bg-solid-primary"
                               type="submit"
                             >
                               <i className="feather-arrow-right"></i>
+                              Subscribe
                             </button>
                           </div>
                         </form>
                       </div>
                     </div>
                   </div>
-                  <SingleFooter data={data.services} />
+                  {/* <SingleFooter data={data.services} /> */}
                   <SingleFooter data={data.products} />
                   <SingleFooter data={data.company} />
-                  <SingleFooter data={data.solutions} />
                 </div>
               ))}
           </div>

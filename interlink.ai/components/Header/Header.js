@@ -61,9 +61,9 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                 <div className="header-btn">
                   <Link
                     className={`btn-default ${btnClass}`}
-                    href="/text-generator"
+                    href="https://ai-square.io/contact/"
                   >
-                    Get Started Free
+                    Request Early Access
                   </Link>
                 </div>
 

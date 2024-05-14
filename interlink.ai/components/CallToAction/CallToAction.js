@@ -48,7 +48,7 @@ const CallToAction = () => {
                         >
                           <Link
                             className="btn-default"
-                            href="/text-generator"
+                            href="https://ai-square.io/contact/"
                           >
                             <div className="has-bg-light"></div>
                             <span>Contact Sales Today</span>
@@ -85,7 +85,7 @@ const CallToAction = () => {
                               </div>
                               <h5 className="title">{data.title}</h5>
                               <span className="rainbow-demo-btn">
-                                Try It Now Free
+                                Discover Now!
                               </span>
                             </div>
                           </div>

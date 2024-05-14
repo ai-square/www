@@ -36,10 +36,10 @@ const Pricing = () => {
                   <span className="theme-gradient">Pricing</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Commence Content Journey with AI
+                  Simple Pricing for all Business Sizes.
                 </h2>
                 <p className="description b1">
-                  Collaborate with AI to generate content that resonates.
+                  Straightforward Pricing Plans designed to suit your Business
                 </p>
               </div>
             </div>
@@ -49,9 +49,8 @@ const Pricing = () => {
               PricingData.pricing.slice(0, 3).map((data, index) => (
                 <div className="col-lg-4 col-md-6 col-12" key={index}>
                   <div
-                    className={`rainbow-pricing style-2 ${
-                      data.isActive ? "active" : ""
-                    }`}
+                    className={`rainbow-pricing style-2 ${data.isActive ? "active" : ""
+                      }`}
                   >
                     <div className="pricing-table-inner bg-flashlight">
                       <div className="pricing-header">
@@ -76,9 +75,8 @@ const Pricing = () => {
                           {data.subItem.map((innerData, innerIndex) => (
                             <li key={innerIndex}>
                               <i
-                                className={`feather-${
-                                  innerData.isMinus ? "minus" : "check"
-                                }-circle pe-2`}
+                                className={`feather-${innerData.isMinus ? "minus" : "check"
+                                  }-circle pe-2`}
                               ></i>
                               {innerData.text}
                             </li>
@@ -92,10 +90,9 @@ const Pricing = () => {
                           </Link>
                         ) : (
                           <Link
-                            className={`btn-default ${
-                              !data.isActive ? "btn-border" : ""
-                            }`}
-                            href="#"
+                            className={`btn-default ${!data.isActive ? "btn-border" : ""
+                              }`}
+                            href="https://ai-square.io/contact/"
                           >
                             Contact Sales
                           </Link>
