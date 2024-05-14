@@ -360,7 +360,7 @@
     fps: false,
     waves: 1,
     width: 200,
-    resize: false,
+    resize: true,
   });
    
   waves.animate();
