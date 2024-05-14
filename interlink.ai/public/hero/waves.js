@@ -18,7 +18,7 @@
       Waves.options = extend(options || {}, {
         resize: true,
         rotation: 0,
-        waves: 5,
+        waves: 0,
         width: 100,
         hue: [51, 54],
         amplitude: 0.5,
@@ -358,8 +358,9 @@
    
   var waves = new Waves('.hero-background-animation', {
     fps: false,
-    waves: 10,
+    waves: 1,
     width: 200,
+    resize: false,
   });
    
   waves.animate();
