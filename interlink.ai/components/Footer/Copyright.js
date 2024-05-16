@@ -11,7 +11,7 @@ const Copyright = () => {
               <div className="copyright-left">
                 <ul className="ft-menu link-hover">
                   <li>
-                    <Link href="#">Privacy Policy</Link>
+                    <Link href="/privacy.html">Privacy Policy</Link>
                   </li>
                   <li>
                     <Link href="#">Terms And Condition</Link>
